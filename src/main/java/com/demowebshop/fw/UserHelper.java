@@ -61,4 +61,30 @@ public class UserHelper extends BaseHelper {
     public boolean isLogInLinkPresent() {
         return isElementPresent(By.cssSelector("[href='/login']"));
     }
+
+    public boolean isLogInErrorMessagePresent() {
+        return isElementPresent(By.xpath("//span[text()='Login was unsuccessful. Please correct the errors and try again.']"));
+    }
+
+    public boolean isRegistrationFirstNameErrorMessagePresent() {
+        return isElementPresent(By.xpath("//span[text()='First name is required.']"));
+    }
+
+
+    public boolean isRegistrationLastNameErrorMessagePresent() {
+        return isElementPresent(By.xpath("//span[text()='Last name is required.']"));
+    }
+
+
+    public boolean isRegistrationEmailErrorMessagePresent() {
+        return isElementPresent(By.xpath("//span[text()='Email is required.']"));
+    }
+
+    public boolean isRegistrationPasswordErrorMessagePresent() {
+        return isElementPresent(By.xpath("//span[text()='Password is required.']"));
+    }
+
+    public boolean isRegistrationConfirmPasswordErrorMessagePresent() {
+        return isElementPresent(By.xpath("//span[text()='Password is required.']"));
+    }
 }
