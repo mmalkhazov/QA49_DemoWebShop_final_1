@@ -8,7 +8,12 @@
                 <methods>
                     <exclude name=".*Negative.*"></exclude>
                 </methods>
+                <methods>
+                    <exclude name=".*From.*"> </exclude>
+
+                </methods>
             </class>
+
             <class name="com.demowebshop.tests.LoginTests"/>
             <class name="com.demowebshop.tests.AddItemToCartTests"/>
         </classes>
