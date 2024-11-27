@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.demowebshop.tests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-11-27T08:40:33" hostname="WINDOWS-7NC6KD9" time="6.329">
+  <properties/>
+  <testcase name="loginWithoutEmailNegativeTest" classname="com.demowebshop.tests.LoginTests" time="3.421"/>
+  <testcase name="loginWithoutPasswordNegativeTest" classname="com.demowebshop.tests.LoginTests" time="2.86"/>
+  <system-out><![CDATA[09:40:33.579 [Test worker] INFO  com.demowebshop.tests.TestBase -- Start TestloginWithoutEmailNegativeTest[]
+09:40:33.581 [Test worker] INFO  com.demowebshop.utils.MyListener -- Before fine elements By.cssSelector: [href='/login']
+09:40:33.581 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:33.651 [Test worker] INFO  com.demowebshop.utils.MyListener -- List size is 1
+09:40:33.651 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:33.653 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.cssSelector: [href='/login']
+09:40:33.654 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:33.698 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+09:40:33.698 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:34.484 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Email
+09:40:34.484 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:34.581 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Email
+09:40:34.582 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:35.703 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Email
+09:40:35.705 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:35.757 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Email
+09:40:35.758 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:35.851 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Email
+09:40:35.852 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:35.899 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Email
+09:40:35.899 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:35.975 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Password
+09:40:35.975 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.045 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Password
+09:40:36.045 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.251 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Password
+09:40:36.251 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.283 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Password
+09:40:36.283 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.336 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Password
+09:40:36.336 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.361 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Password
+09:40:36.361 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.459 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.cssSelector: .button-1.login-button
+09:40:36.459 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.497 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.cssSelector: .button-1.login-button
+09:40:36.497 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:36.918 [Test worker] INFO  com.demowebshop.utils.MyListener -- Before fine elements By.xpath: //span[text()='Login was unsuccessful. Please correct the errors and try again.']
+09:40:36.920 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:37.071 [Test worker] INFO  com.demowebshop.utils.MyListener -- List size is 1
+09:40:37.072 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:37.075 [Test worker] INFO  com.demowebshop.tests.TestBase -- PASSED: loginWithoutEmailNegativeTest
+09:40:37.075 [Test worker] INFO  com.demowebshop.tests.TestBase -- Stop Test
+09:40:37.075 [Test worker] INFO  com.demowebshop.tests.TestBase -- ======================================================
+09:40:37.082 [Test worker] INFO  com.demowebshop.tests.TestBase -- Start TestloginWithoutPasswordNegativeTest[]
+09:40:37.084 [Test worker] INFO  com.demowebshop.utils.MyListener -- Before fine elements By.cssSelector: [href='/login']
+09:40:37.084 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:37.120 [Test worker] INFO  com.demowebshop.utils.MyListener -- List size is 1
+09:40:37.120 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:37.121 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.cssSelector: [href='/login']
+09:40:37.122 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:37.152 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+09:40:37.152 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:37.752 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Email
+09:40:37.752 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:37.871 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Email
+09:40:37.871 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:38.471 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Email
+09:40:38.471 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:38.530 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Email
+09:40:38.530 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:38.632 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Email
+09:40:38.632 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:38.672 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Email
+09:40:38.672 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:38.830 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Password
+09:40:38.831 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:38.879 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Password
+09:40:38.879 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.152 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Password
+09:40:39.152 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.195 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Password
+09:40:39.196 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.283 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.name: Password
+09:40:39.283 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.316 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.name: Password
+09:40:39.317 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.387 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator will find By.cssSelector: .button-1.login-button
+09:40:39.389 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.426 [Test worker] INFO  com.demowebshop.utils.MyListener -- The locator is By.cssSelector: .button-1.login-button
+09:40:39.426 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.803 [Test worker] INFO  com.demowebshop.utils.MyListener -- Before fine elements By.xpath: //span[text()='Login was unsuccessful. Please correct the errors and try again.']
+09:40:39.803 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.980 [Test worker] INFO  com.demowebshop.utils.MyListener -- List size is 1
+09:40:39.980 [Test worker] INFO  com.demowebshop.utils.MyListener -- ==========================================
+09:40:39.984 [Test worker] INFO  com.demowebshop.tests.TestBase -- PASSED: loginWithoutPasswordNegativeTest
+09:40:39.984 [Test worker] INFO  com.demowebshop.tests.TestBase -- Stop Test
+09:40:39.984 [Test worker] INFO  com.demowebshop.tests.TestBase -- ======================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
